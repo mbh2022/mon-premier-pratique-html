@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Le titre de la page -->
+    <title>mon premier cours html </html></title>
+    <!-- Icone de l'onglet -->
+    <link rel="shortcut icon" href="logo-html.png">
+</head>
+
+<body>
+    <section>
+        <div>
+            <h1>Texte - Titre - H1</h1>    
+            <p> Texte basique, <em> text en italique</em>, 
+                <strong> texte en gras</strong>, <span> l'element en span ne revient pas a la ligne</span>,
+             </p>    
+             
+        </div>
+        <div>
+            <h2>Photo - Titre - H2</h2>     
+            <img src="paysage.jpg"height="300"   alt="image-paysage">
+        </div>
+        <div>
+            <h3>Liste - Titre - H3</h3>     
+            <ul>
+                <li>UL = Liste non ronge</li>
+                <li>UL = Liste non ronge</li>
+                <li>UL = Liste non ronge</li>   
+            </ul>
+            <OL>
+                <LI>ol Liste ormanise</LI>
+                <LI>ol Liste ormanise</LI>
+                <LI>ol Liste ormanise</LI>
+            </OL>
+        </div>
+        <div>
+            <h4>Titre - H4</h4>  
+        <a href="http://www.cherche.info/"
+        target="-blank">mon site web personnel</a>   
+        <br>
+        <a href="http://www.deconajm.com/"
+        target="-blank">mon deuixième site</a>
+        <br>
+        <a href="http://www.htmlcheatsheet.com"
+        target="_blank">site cheat cheet</a>
+        <br>
+        <a href="http://www.toptal.com/dessigners/htmlarrous/symbols"
+        target=_blank>Icones HTML</a>
+
+        </div>
+        <div>
+            <h5>Tableau - Titre - H5</h5>
+            <table border="1" width="50%">
+                <!-- Légande -->
+                <CAPtion> Population Tunisie</CAPtion>
+                <!-- En-tete -->
+                <thead>
+                    <tr>
+                        <th>regions</th>
+                        <th>population</th>
+                    </tr>
+                </thead>
+                    <tr>
+                        <td>Tunis</td>
+                        <td>4m</td>
+                    </tr>
+                    <tr>
+                        <td>Ben arous</td>
+                        <td>1m</td>
+                    </tr>
+                    <tr>
+                        <td>ariana</td>
+                        <td>1m</td>
+                    </tr>
+            </table>    
+        </div>
+
+        <div>
+            <h6>vidéo - Titre - H6</h6>  
+            <video src="vidéo.mp4" 
+            autoplay loop muted height="400">vidéo test </video>   
+                </div>
+
+    </section>
+    <br>
+    <!-- Formulaire -->
+    <section>
+        <h2>Formulaire</h2>
+        <form action="action.php" method="post">
+           <label for="name">Nom </label><input type="text" placeholder="entrer votre nom"><br>
+            <label for="age">Age </label>
+            <input type="age" type="number" min="0" max="99"
+            step="1" value="18"> <br>
+
+            <!-- input select -->
+            <label for="gender">Genre </label>
+            <select  id="gender">
+                <option value="homme">homme</option>
+                <option selected value="femme">femme</option>
+                    </select><br>
+    <!-- input radio -->
+    <div>
+        <input type="radio" name="type" id="human">
+        <label for="human">humain</label>
+
+        <input type="radio" name="type" id="dog">
+        <label for="human">chien</label>
+
+        <input type="radio" name="type" id="cat">
+        <label for="human">chat</label>
+    </div>
+
+    <textarea cols="30" id="" rows="10"
+     placeholder="entrer votre demande ici"></textarea><br>
+
+     <!-- input checkbox -->
+     <label><input type="checkbox"/>Accepter les conditions </label>
+
+     <input type="sebmit" value="valider">
+
+            </form>
+    </section>
+    <br>
+
+    <!-- mail & envoi de fichier -->
+    <footer>
+        <a href="mailto:mounirbhassani@gmail.com">ecriver-moi</a>
+        <br>
+        <a href="notice.txt" download="nom-du-fichier">Télécharger la notice</a>
+    </footer>
+</body>
+</html>
